@@ -8108,7 +8108,7 @@ input:focus-visible {
 .room__card__meta__info span {
   display: flex;
   gap: 5px;
-  align-items: center;
+  align-items: baseline
 }
 .room__card__meta .room__card__link {
   font-size: 18px;
@@ -8910,7 +8910,7 @@ picture.jarallax-img img {
 
 .banner__area.is__home__four .banner__slide__content.if__not__slider {
   text-align: left;
-  padding: 290px 0;
+  padding: 200px 0;
 }
 @media screen and (max-width: 1200px) {
   .banner__area.is__home__four .banner__slide__content.if__not__slider {
@@ -11135,6 +11135,9 @@ picture.jarallax-img img {
     min-width: 260px;
   }
 }
+.rts__form-2 input,.rts__form-2 button{
+ width: 100%;
+}
 
 .facility__area {
   padding: 65px 0;
@@ -13150,6 +13153,7 @@ picture.jarallax-img img {
   margin-bottom: 60px;
   position: relative;
   z-index: 1;
+  gap: 10px;
 }
 @media screen and (max-width: 768px) {
   .footer__widget__wrapper {
@@ -13543,15 +13547,4 @@ picture.jarallax-img img {
   gap: 5px;
 }
 
-/*
-if you need custom styles, please add it in this file below
 
-For example:
-.custom{
-    color: red;
-}
-*/
-/*
-If you love our template, please give us a star on https://themeforest.net/user/reacthemes
-*/
-/*# sourceMappingURL=../maps/style.css.map */
