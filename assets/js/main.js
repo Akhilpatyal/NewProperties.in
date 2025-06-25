@@ -196,6 +196,41 @@
             }
           });
              // advantage SLIDER
+          var apartMent = new Swiper(".advantage__slider-2", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            speed: 1000,
+            centeredSlides: false,
+            autoplay: false,
+            pagination: {
+              el: ".rts-pagination",
+              clickable: true
+            },
+            breakpoints: {
+              0: {
+                slidesPerView: 1,
+              },
+              575: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 3,
+                centeredSlides: false
+              },
+              992: {
+                slidesPerView: 3,
+                centeredSlides: false
+              },
+              1200: {
+                slidesPerView: 3,
+              },
+              1400: {
+                slidesPerView: 3,
+              }
+            }
+          });
+             // advantage SLIDER
           var apartMent = new Swiper(".advantage__slider", {
             slidesPerView: 4,
             spaceBetween: 30,

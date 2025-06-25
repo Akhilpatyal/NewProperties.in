@@ -8320,6 +8320,7 @@ input:focus-visible {
 @media screen and (max-width: 992px) {
   .main__header {
     padding: 20px 0;
+            position: sticky;
   }
 }
 
@@ -8701,7 +8702,7 @@ picture.jarallax-img img {
 }
 
 .banner__slider__image::before {
-  background-color: rgba(27, 27, 27, 0.5);
+      background: linear-gradient(45deg, #000000c2, transparent);
 }
 .banner__slider__image img {
   height: 100%;
