@@ -13584,3 +13584,7 @@ picture.jarallax-img img {
   transform: rotate(0deg); /* Back to normal on hover */
   
 }
+
+.brightness{
+  filter: brightness(0.8);
+}
