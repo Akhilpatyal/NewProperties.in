@@ -9430,7 +9430,7 @@ input:focus-visible {
   padding-top: 0;
   padding-bottom: 0;
   position: absolute;
-  background: rgb(255 255 255 / 25%);
+  background: rgb(255 255 255 / 30%);
   z-index: 9999;
   width: -webkit-fill-available;
   backdrop-filter: blur(10px);
