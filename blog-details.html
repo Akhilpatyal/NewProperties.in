@@ -32,6 +32,9 @@
     <link rel="stylesheet" href="assets/css/plugins.min.css">
     <!-- main style custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+                  <style>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Protest+Revolution&display=swap');
+</style>
 </head>
 <body>
         <!--=================================
@@ -114,7 +117,7 @@
                 <div class="row">
                     <div class="col-xl-12 col-lg-12 align-content-center">
                         <div class="banner__slide__content if__not__slider">
-                            <h1 class="wow fadeInUp  text-center">Blog Detail</h1>
+                            <h1 class="wow fadeInUp  text-center text-style">Blog Detail</h1>
                         </div>
                     </div>
                 </div>
@@ -130,6 +133,7 @@
            
                     <div class="blog__details">
                         <div class="blog__details__content">
+                            <h1 class="grad-text">Luxury Hotels</h1>
                             <p class="description">
                                 Welcome to Career Compass, your ultimate destination for career advice, job search
                                 strategies, and professional development insights. Whether you're a recent graduate,
@@ -144,7 +148,7 @@
                             </p>
                             <img class="rounded-3 my-4 img-fluid" height="500"
                                 src="assets/images/pages/blog/details.webp" alt="">
-                            <h6 class="mb-4 mt-4">Hotel Service</h6>
+                            <h5 class="mb-4 mt-4 grad-text grad-text">Hotel Service</h5>
                             <ul class="service-list list-unstyled">
                                 <li><img src="assets/images/icon/check-fill.svg" alt="">Romantic Getaway</li>
                                 <li><img src="assets/images/icon/check-fill.svg" alt="">Family Vacation</li>
@@ -153,7 +157,7 @@
                                 <li><img src="assets/images/icon/check-fill.svg" alt="">Conference Venues</li>
                                 <li><img src="assets/images/icon/check-fill.svg" alt="">Special Offers</li>
                             </ul>
-                            <h6 class="mb-4 mt-4">Real Guest Stories: Unforgettable Stays at Bokinn</h6>
+                            <h5 class="mb-4 mt-4 grad-text">Real Guest Stories: Unforgettable Stays at Bokinn</h5>
                             <p class="description">
                                 Welcome to Career Compass, your ultimate destination for career advice, job search
                                 strategies, and professional development insights. Whether you're a recent graduate,
@@ -173,7 +177,7 @@
                                 skill-building strategies, our expert contributors share their knowledge and expertise
                                 to equip you with the tools you need to succeed.</p>
 
-                            <h6 class="mb-30">Tags</h6>
+                            <h5 class="mb-30 grad-text">Tags</h5>
                             <div class="tag__list mb-30">
                                 <div class="tags__list">
                                     <a href="#">Hotel Stay</a>
@@ -184,7 +188,7 @@
                                 </div>
                             </div>
                             <div class="share mb-30">
-                                <h6 class="mb-20">Share</h6>
+                                <h5 class="mb-20 grad-text">Share</h5>
                                 <div class="social__link">
                                     <a href="#"><i class="flaticon-linkedin"></i></a>
                                     <a href="#"><i class="flaticon-twitter-alt-circle"></i></a>
@@ -203,154 +207,6 @@
     <!-- footer style one -->
 
 
-    <div class="modal similar__modal fade " id="loginModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="max-content similar__form form__padding">
-                    <div class="d-flex mb-3 align-items-center justify-content-between">
-                        <h6 class="mb-0">Login To Moonlit</h6>
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
-                        </button>
-                    </div>
-                    <form action="https://moonlit-django.netlify.app/candidate-dashboard.html" method="post"
-                        class="d-flex flex-column gap-3">
-                        <div class="form-group">
-                            <label for="email-popup" class="text-dark mb-3">Your Email</label>
-                            <div class="position-relative">
-                                <input type="email" name="email-popup" id="email-popup" placeholder="Enter your email"
-                                    required>
-
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="password" class="text-dark mb-3">Password</label>
-                            <div class="position-relative">
-                                <input type="password" name="password" id="password" placeholder="Enter your password"
-                                    required>
-
-                            </div>
-                        </div>
-                        <div class="d-flex flex-wrap justify-content-between align-items-center ">
-                            <div class="form-check d-flex align-items-center gap-2">
-                                <input class="form-check-input mt-0" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label mb-0" for="flexCheckDefault">
-                                    Remember me
-                                </label>
-                            </div>
-                            <a href="#" class="forgot__password text-para" data-bs-toggle="modal"
-                                data-bs-target="#forgotModal">Forgot Password?</a>
-                        </div>
-                        <div class="form-group my-3">
-                            <button class="theme-btn btn-style sm-btn fill w-100"><span>Login</span></button>
-                        </div>
-                    </form>
-                    <div class="d-block has__line text-center">
-                        <p>Or</p>
-                    </div>
-                    <div class="d-flex gap-4 flex-wrap justify-content-center mt-20 mb-20">
-                        <div class="is__social google">
-                            <button class="theme-btn btn-style sm-btn"><span>Continue with Google</span></button>
-                        </div>
-                        <div class="is__social facebook">
-                            <button class="theme-btn btn-style sm-btn"><span>Continue with Facebook</span></button>
-                        </div>
-                    </div>
-                    <span class="d-block text-center ">Don`t have an account? <a href="#" data-bs-target="#signupModal"
-                            data-bs-toggle="modal" class="text-primary">Sign Up</a> </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- signup form -->
-    <div class="modal similar__modal fade " id="signupModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="max-content similar__form form__padding">
-                    <div class="d-flex mb-3 align-items-center justify-content-between">
-                        <h6 class="mb-0">Create A Free Account</h6>
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
-                        </button>
-                    </div>
-
-                    <form action="#" class="d-flex flex-column gap-3">
-                        <div class="form-group">
-                            <label for="sname" class=" text-dark mb-3">Your Name</label>
-                            <div class="position-relative">
-                                <input type="text" name="sname" id="sname" placeholder="Candidate" required>
-                                <i class="fa-light fa-user icon"></i>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="signemail" class=" text-dark mb-3">Your Email</label>
-                            <div class="position-relative">
-                                <input type="email" name="signemail" id="signemail" placeholder="Enter your email"
-                                    required>
-                                <i class="fa-sharp fa-light fa-envelope icon"></i>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="spassword" class=" text-dark mb-3">Password</label>
-                            <div class="position-relative">
-                                <input type="password" name="spassword" id="spassword" placeholder="Enter your password"
-                                    required>
-                                <i class="fa-light fa-lock icon"></i>
-                            </div>
-                        </div>
-
-                        <div class="form-group my-3">
-                            <button class="theme-btn btn-style sm-btn fill w-100"><span>Register</span></button>
-                        </div>
-                    </form>
-                    <div class="d-block has__line text-center">
-                        <p>Or</p>
-                    </div>
-                    <div class="d-flex flex-wrap justify-content-center gap-4 mt-20 mb-20">
-                        <div class="is__social google">
-                            <button class="theme-btn btn-style sm-btn"><span>Continue with Google</span></button>
-                        </div>
-                        <div class="is__social facebook">
-                            <button class="theme-btn btn-style sm-btn"><span>Continue with Facebook</span></button>
-                        </div>
-                    </div>
-                    <span class="d-block text-center ">Have an account? <a href="#" data-bs-target="#loginModal"
-                            data-bs-toggle="modal" class="text-primary">Login</a> </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- forgot password form -->
-    <div class="modal similar__modal fade " id="forgotModal">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="max-content similar__form form__padding">
-                    <div class="d-flex mb-3 align-items-center justify-content-between">
-                        <h6 class="mb-0">Forgot Password</h6>
-                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close">
-                        </button>
-                    </div>
-                    <form action="#" class="d-flex flex-column gap-3">
-                        <div class="form-group">
-                            <label for="fmail" class=" text-dark mb-3">Your Email</label>
-                            <div class="position-relative">
-                                <input type="email" name="email" id="fmail" placeholder="Enter your email" required>
-                                <i class="fa-sharp fa-light fa-envelope icon"></i>
-                            </div>
-                        </div>
-                        <div class="form-group my-3">
-                            <button class="theme-btn btn-style sm-btn fill w-100"><span>Reset Password</span></button>
-                        </div>
-                    </form>
-
-                    <span class="d-block text-center ">Remember Your Password?
-                        <a href="#" data-bs-target="#loginModal" data-bs-toggle="modal" class="text-primary">Login</a>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
 
        <!-- offcanvase menu -->
     <div class="offcanvas offcanvas-start" id="offcanvasRight">
@@ -450,7 +306,7 @@
         <div class="container">
             <div class="row">
                 <div class="footer__newsletter">
-                    <span class="h2">Love to hear from you Get in touch! <img src="assets/icons8-right-arrow-48 (1).png" alt=""></span>
+                    <span class="h2 grad-text">Love to hear from you Get in touch! <img src="assets/icons8-right-arrow-48 (1).png" alt=""></span>
 
                 </div>
             </div>
