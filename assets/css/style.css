@@ -8235,7 +8235,7 @@ input:focus-visible {
 
 .navigation__menu--item__link {
   position: relative;
-  font-size: 18px;
+  font-size: 19px;
   text-transform: capitalize;
   padding-top: 24px;
   padding-bottom: 30px;
@@ -14768,7 +14768,8 @@ picture.jarallax-img img {
 .footer__newsletter {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   align-items: center;
   position: relative;
   z-index: 1;
@@ -15946,7 +15947,7 @@ a.otherElem:hover::after {
 
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 50px;
+  letter-spacing: 40px;
   line-height: 125px;
   text-transform: uppercase;
   padding: 20px;
@@ -16003,4 +16004,12 @@ a.otherElem:hover::after {
   background-size: 300% 100%;
   background-position: top right;
   font-family: "Protest Revolution", sans-serif;
+}
+
+.rotate45 img{
+  width: 25px!important;
+    transform: rotate(-52deg);
+}
+.option:hover .rotate45 img{
+    transform: rotate(0deg);
 }
